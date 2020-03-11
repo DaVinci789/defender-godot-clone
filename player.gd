@@ -28,6 +28,7 @@ func _process(delta):
 	velocity.y = 0
 	for node in $world.get_children():
 		if not node.is_in_group("entity"):
+			node.position.x -= 10
 			continue 
 		node.move_and_slide(-velocity)
 

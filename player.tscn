@@ -41,6 +41,7 @@ shape = SubResource( 2 )
 position = Vector2( -1.16144, -138.061 )
 
 [node name="terrain_line" type="Line2D" parent="world/terrain"]
+width = 5.0
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
 
